@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * SpringBootApplication에서 springboot 설정 파일(application.properties)를 읽은 후 db.properties 파일도 읽어 자바 빈으로 등록
+ * SpringBootApplication에서 db.properties 설정 파일을 읽고 아래의 데이터 읽어 자바 빈으로 등록
  * @author Junki
  *
  */

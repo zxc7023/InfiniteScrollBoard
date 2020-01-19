@@ -7,6 +7,7 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 public class InfiniteScrollBoardApplication {
 
 	public static void main(String[] args) {
+		//SpringApplication.run(ScrollBoardApplication.class, args);
 		new SpringApplicationBuilder(InfiniteScrollBoardApplication.class).properties("spring.config.location=" + "classpath:/application.properties" + ",classpath:/db.properties").run(args);
 	}
 
